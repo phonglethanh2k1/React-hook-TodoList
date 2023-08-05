@@ -28,7 +28,6 @@ const Todo = ({ task, EditTodo, DeleteTodo, onChange }) => {
         <li>
           <div className='checkbox-container'>
             <input type="checkbox" id={task.task}  className='custom-checkbox' onChange={handleCheckboxChange}  checked={task.completed}/>
-            {/* <span className="checkmark"></span> */}
               <label htmlFor={task.task}>{task.task}</label>
           </div>
           <div>
